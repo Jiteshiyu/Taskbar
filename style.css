@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-app {
+  background: #fff;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  min-width: 350px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-style: italic;
+  margin-top: 0.5rem;
+  margin-bottom: 1.3rem;
+  text-align: center;
+}
+
+.form-grp {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+#taskInput {
+  padding: 0.5rem;
+  margin-right: 1rem;
+  border: 2px solid #ddd;
+  border-radius: 0.25rem;
+}
+
+#addTaskButton {
+  border: none;
+  color: #fff;
+  background-color: #28a745;
+  padding: 0.4rem 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+#addTaskButton:hover {
+  background-color: #218838;
+}
+
+#taskHeading {
+  display: none;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+}
+
+#taskHeading.active {
+  display: block;
+}
+
+#taskList {
+  list-style: none;
+}
+
+.task-item {
+  padding: 0.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-item.done {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.remove-btn {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 0.3rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.remove-btn:hover {
+  background-color: #c82333;
+}
