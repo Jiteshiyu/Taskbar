@@ -23,12 +23,12 @@ Ensure you have a modern web browser installed (e.g., Chrome, Firefox, Safari).
 ### Installation
 
 1. Clone the repository:
-   
+   ``` bash
    git clone https://github.com/Jiteshiyu/Taskbar.git
-   
+   ```
 2. Navigate to the project directory
 
-3. Open index.html in your web browser.
+3. Open `index.html` in your web browser.
 
 ### Usage
 
