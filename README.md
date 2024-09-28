@@ -24,7 +24,7 @@ Ensure you have a modern web browser installed (e.g., Chrome, Firefox, Safari).
 
 1. Clone the repository:
    ``` bash
-   git clone https://github.com/Jiteshiyu/Taskbar.git
+   git clone https://github.com/Jiteshiyu/Taskscroll.git
    ```
 2. Navigate to the project directory
 
