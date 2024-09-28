@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
+  // Get DOM elements
   const taskInput = document.getElementById("taskInput");
   const addTaskButton = document.getElementById("addTaskButton");
   const taskList = document.getElementById("taskList");
@@ -12,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
       return;
     }
 
-    // Activate the task heading by adding a class
+    // Activate the task heading
     taskHeading.classList.add("active");
 
     // Create a new list item for the task
@@ -23,12 +24,12 @@ document.addEventListener("DOMContentLoaded", () => {
             <button class="remove-btn">Remove</button>
         `;
 
-    // Toggle the 'done' class when the task text is clicked
+    // Toggling the 'done' class when the task is clicked
     li.querySelector("span").addEventListener("click", () => {
       li.classList.toggle("done");
     });
 
-    // Remove the task from the list when the 'Remove' button is clicked
+    // Remove the task when the 'Remove' button is clicked
     li.querySelector(".remove-btn").addEventListener("click", () => {
       taskList.removeChild(li);
     });
@@ -37,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
     taskInput.value = "";
   });
 
-  // Add event listener to handle 'Enter' key press on the input field
+  // Add event listener to handle 'Enter' key press
   taskInput.addEventListener("keypress", (event) => {
     if (event.key === "Enter") {
       addTaskButton.click();
