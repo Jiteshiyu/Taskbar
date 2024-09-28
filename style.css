@@ -1,9 +1,11 @@
+/* Reset default styles */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Body styles */
 body {
   min-height: 100vh;
   background-color: #f5f5f5;
@@ -13,6 +15,7 @@ body {
   align-items: center;
 }
 
+/* Todo app container */
 .todo-app {
   background: #fff;
   border-radius: 0.5rem;
@@ -21,21 +24,23 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
+/* Heading styles */
 .heading {
   font-size: 1.5rem;
   font-weight: bold;
   font-style: italic;
-  margin-top: 0.5rem;
-  margin-bottom: 1.3rem;
+  margin: 0.5rem 0 1.3rem;
   text-align: center;
 }
 
+/* Form group layout */
 .form-grp {
   display: flex;
   justify-content: space-between;
   margin-bottom: 1rem;
 }
 
+/* Task input field */
 #taskInput {
   padding: 0.5rem;
   margin-right: 1rem;
@@ -43,6 +48,7 @@ body {
   border-radius: 0.25rem;
 }
 
+/* Add task button */
 #addTaskButton {
   border: none;
   color: #fff;
@@ -52,10 +58,12 @@ body {
   cursor: pointer;
 }
 
+/* Button hover effect */
 #addTaskButton:hover {
   background-color: #218838;
 }
 
+/* Task heading */
 #taskHeading {
   display: none;
   font-size: 1.2rem;
@@ -65,14 +73,17 @@ body {
   text-align: center;
 }
 
+/* Active task heading */
 #taskHeading.active {
   display: block;
 }
 
+/* Task list styles */
 #taskList {
   list-style: none;
 }
 
+/* Individual task item */
 .task-item {
   padding: 0.3rem;
   display: flex;
@@ -80,11 +91,13 @@ body {
   align-items: center;
 }
 
+/* Completed task styling */
 .task-item.done {
   text-decoration: line-through;
   color: #888;
 }
 
+/* Remove button styles */
 .remove-btn {
   background-color: #dc3545;
   color: #fff;
@@ -94,6 +107,7 @@ body {
   cursor: pointer;
 }
 
+/* Remove button hover effect */
 .remove-btn:hover {
   background-color: #c82333;
 }
