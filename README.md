@@ -1,4 +1,4 @@
-# To-Do List Application
+# Taskscroll
 
 A simple and interactive To-Do List application that allows users to add, complete, and remove tasks. Built with HTML5, CSS3, and JavaScript, this project showcases basic front-end development skills and provides a user-friendly interface for task management.
 
