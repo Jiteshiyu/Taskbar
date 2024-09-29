@@ -1,6 +1,10 @@
 # Taskscroll
 
-A simple and interactive To-Do List application that allows users to add, complete, and remove tasks. Built with HTML5, CSS3, and JavaScript, this project showcases basic front-end development skills and provides a user-friendly interface for task management.
+A simple and interactive To-Do List Application.
+
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
 ## Features
 
@@ -10,15 +14,9 @@ A simple and interactive To-Do List application that allows users to add, comple
 
 ## Technologies Used
 
-- HTML5: Structure of the application.
+- HTML5: Structure and Content of the application.
 - CSS3: Styling and layout for a clean user interface.
-- JavaScript: Functionality for adding, removing, and marking tasks as completed.
-
-## Getting Started
-
-### Prerequisites
-
-Ensure you have a modern web browser installed (e.g., Chrome, Firefox, Safari).
+- JavaScript: Functionality for adding, removing, and marking tasks.
 
 ### Installation
 
@@ -26,34 +24,21 @@ Ensure you have a modern web browser installed (e.g., Chrome, Firefox, Safari).
    ``` bash
    git clone https://github.com/Jiteshiyu/Taskscroll.git
    ```
-2. Navigate to the project directory
+   
+2. Navigate to the project directory.
 
 3. Open `index.html` in your web browser.
 
 ### Usage
 
 1. Type your task in the input field.
-2. Click the "Add Task" button or press "Enter" to add the task to your list.
+2. Click the "Add Task" button to add the task to your list.
 3. Click on a task to mark it as done (it will be crossed out).
 4. Click the "Remove" button to delete a task from the list.
 
-## Screenshots
+## Support
+Give a 🌟 to this repo if you liked it .
 
-![Taskbar](https://github.com/user-attachments/assets/7f38fe9b-5bcb-4f41-ad6d-9f60a4e88e96)
+Connect with me
 
-## Contributing
-
-Contributions are welcome! If you have suggestions for improvements or new features, feel free to create an issue or submit a pull request.
-
-### Steps to Contribute
-
-1. Fork the repository.
-2. Create a new branch.
-3. Make your changes and commit them.
-4. Push to the branch.
-5. Open a pull request.
-
-## Acknowledgements
-
-- Inspired by various task management applications.
-- Thanks to the open-source community for their continuous support and resources.
+[![LinkedIn](https://img.shields.io/static/v1.svg?label=connect&message=@JiteshKumar&color=success&logo=linkedin&style=for-the-badge&logoColor=white&colorA=blue)](https://www.linkedin.com/in/jitesh-kumar-93742a322/) [![Github](https://img.shields.io/static/v1.svg?label=follow&message=@Jiteshiyu&color=grey&logo=github&style=for-the-badge&logoColor=white&colorA=black)](https://www.github.com/Jiteshiyu/)
