@@ -6,6 +6,10 @@ A simple and interactive To-Do List Application.
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
+## Demo
+
+You can view a live demo of the project [here](https://taskscroll.netlify.app/).
+
 ## Features
 
 - Add Tasks: Users can input tasks and add them to the list.
