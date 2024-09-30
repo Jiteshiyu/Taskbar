@@ -12,15 +12,15 @@ You can view a live demo of the project [here](https://taskscroll.netlify.app/).
 
 ## Features
 
-- Add Tasks: Users can input tasks and add them to the list.
-- Mark as Done: Tasks can be marked as completed by clicking on them.
-- Remove Tasks: Users can remove tasks from the list.
+- **Add Tasks:** Users can input tasks and add them to the list.
+- **Mark as Done:** Tasks can be marked as completed by clicking on them.
+- **Remove Tasks:** Users can remove tasks from the list.
 
 ## Technologies Used
 
-- HTML5: Structure and Content of the application.
-- CSS3: Styling and layout for a clean user interface.
-- JavaScript: Functionality for adding, removing, and marking tasks.
+- HTML5
+- CSS3
+- JavaScript
 
 ### Installation
 
