@@ -103,7 +103,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #f8f9fa;
+  background-color: #f4f4f4;
   border-radius: 0.25rem;
   margin-bottom: 0.5rem;
   transition: background-color 0.3s; 
@@ -116,7 +116,7 @@ body {
 /* Completed task styling */
 .task-item.done {
   text-decoration: line-through;
-  color: #868e96;
+  color: #333;
 }
 
 /* Remove button styles */
