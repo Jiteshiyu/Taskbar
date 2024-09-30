@@ -30,7 +30,7 @@ body {
 
 /* Heading styles */
 .heading {
-  color: f41212;
+  color: #007bff;
   font-size: 2rem;
   font-weight: bold;
   font-style: italic;
@@ -47,7 +47,7 @@ body {
 
 /* Task input field */
 #taskInput {
-  padding: 0.75rem;
+  padding: 0.6rem;
   margin-right: 1rem;
   border: 2px solid #ced4da;
   border-radius: 0.25rem;
@@ -56,7 +56,7 @@ body {
 }
 
 #taskInput:focus {
-  border-color: #007bff;
+  border-color: #333;
   outline: none;
 }
 
@@ -66,7 +66,7 @@ body {
   color: #fff;
   font-size: 1rem;
   background-color: #28a745;
-  padding: 0.6rem 1.2rem;
+  padding: 0.5rem 1rem;
   border-radius: 0.25rem;
   cursor: pointer;
 }
@@ -110,7 +110,7 @@ body {
 }
 
 .task-item:hover {
-  background: #e2e6ea;
+  background: #dedede;
 }
 
 /* Completed task styling */
