@@ -8,7 +8,7 @@
 /* Body styles */
 body {
   min-height: 100vh;
-  background-color: #f5f5f5;
+  background-color: #333;
   font-family: Arial, sans-serif;
   display: flex;
   justify-content: center;
@@ -17,19 +17,24 @@ body {
 
 /* Todo app container */
 .todo-app {
-  background: #fff;
-  border-radius: 0.5rem;
-  padding: 1.5rem;
-  min-width: 350px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  background: #f4f4f4;
+  padding: 2rem;
+  border-radius: 0.75rem;
+  box-shadow: 4px 4px 6px rgba(0, 255, 255, 1);
+  transition: transform 0.3s ease;
+}
+
+.todo-app:hover {
+  transform: scale(1.01);
 }
 
 /* Heading styles */
 .heading {
-  font-size: 1.5rem;
+  color: f41212;
+  font-size: 2rem;
   font-weight: bold;
   font-style: italic;
-  margin: 0.5rem 0 1.3rem;
+  margin-bottom: 1.5rem;
   text-align: center;
 }
 
@@ -37,23 +42,31 @@ body {
 .form-grp {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 /* Task input field */
 #taskInput {
-  padding: 0.5rem;
+  padding: 0.75rem;
   margin-right: 1rem;
-  border: 2px solid #ddd;
+  border: 2px solid #ced4da;
   border-radius: 0.25rem;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+#taskInput:focus {
+  border-color: #007bff;
+  outline: none;
 }
 
 /* Add task button */
 #addTaskButton {
   border: none;
   color: #fff;
+  font-size: 1rem;
   background-color: #28a745;
-  padding: 0.4rem 1rem;
+  padding: 0.6rem 1.2rem;
   border-radius: 0.25rem;
   cursor: pointer;
 }
@@ -66,8 +79,9 @@ body {
 /* Task heading */
 #taskHeading {
   display: none;
-  font-size: 1.2rem;
-  margin-bottom: 0.5rem;
+  color: #343a40;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
   font-weight: bold;
   font-style: italic;
   text-align: center;
@@ -85,16 +99,24 @@ body {
 
 /* Individual task item */
 .task-item {
-  padding: 0.3rem;
+  padding: 0.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #f8f9fa;
+  border-radius: 0.25rem;
+  margin-bottom: 0.5rem;
+  transition: background-color 0.3s; 
+}
+
+.task-item:hover {
+  background: #e2e6ea;
 }
 
 /* Completed task styling */
 .task-item.done {
   text-decoration: line-through;
-  color: #888;
+  color: #868e96;
 }
 
 /* Remove button styles */
@@ -102,12 +124,15 @@ body {
   background-color: #dc3545;
   color: #fff;
   border: none;
-  padding: 0.3rem;
+  padding: 0.4rem;
   border-radius: 0.25rem;
   cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
 }
 
 /* Remove button hover effect */
 .remove-btn:hover {
   background-color: #c82333;
+  transform: scale(1.05);
 }
+
