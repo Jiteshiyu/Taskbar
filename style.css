@@ -46,7 +46,7 @@ body {
 
 /* Task input field */
 #taskInput {
-  padding: 0.6rem;
+  padding: 0.5rem;
   margin-right: 1rem;
   border: 2px solid #ced4da;
   border-radius: 0.25rem;
@@ -65,7 +65,7 @@ body {
   color: #fff;
   font-size: 1rem;
   background-color: #28a745;
-  padding: 0.4rem 0.8rem;
+  padding: 0.3rem 1.2rem;
   border-radius: 0.25rem;
   cursor: pointer;
 }
