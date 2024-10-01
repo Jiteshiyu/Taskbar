@@ -114,6 +114,10 @@ body {
   color: #333;
 }
 
+.task-name{
+  font-size: 1rem;
+}
+
 /* Remove button styles */
 .btn {
   color: #fff;
