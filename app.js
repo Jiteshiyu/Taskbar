@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // Get DOM elements
+  
+    // Get DOM elements
   const taskInput = document.getElementById("taskInput");
   const addTaskButton = document.getElementById("addTaskButton");
   const taskList = document.getElementById("taskList");
@@ -29,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
       li.classList.toggle("done");
     });
 
-    // Remove the task when the 'Remove' button is clicked
+    // Remove task when the 'Remove' button is clicked
     li.querySelector(".remove-btn").addEventListener("click", () => {
       taskList.removeChild(li);
     });
