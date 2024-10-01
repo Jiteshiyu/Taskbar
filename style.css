@@ -1,11 +1,11 @@
-/* Reset default styles */
+/* Reset Styles */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Body styles */
+/* Body Styles */
 body {
   min-height: 100vh;
   background: linear-gradient(#a3c7e6, #a5c4de);
@@ -15,7 +15,7 @@ body {
   align-items: center;
 }
 
-/* Todo app container */
+/* Todo App Styles */
 .todo-app {
   background: #f4f4f4;
   padding: 2rem;
@@ -28,7 +28,7 @@ body {
   transform: scale(1.01);
 }
 
-/* Heading styles */
+/* Heading Styles */
 .heading {
   font-size: 2rem;
   font-weight: bold;
@@ -37,14 +37,14 @@ body {
   text-align: center;
 }
 
-/* Form group layout */
+/* Form Grp Layout */
 .form-grp {
   display: flex;
   justify-content: space-between;
   margin-bottom: 1.5rem;
 }
 
-/* Task input field */
+/* Task Input Styles */
 #taskInput {
   padding: 0.5rem;
   margin-right: 1rem;
@@ -58,7 +58,7 @@ body {
   outline: none;
 }
 
-/* Add task button */
+/* Add Button Styles */
 #addTaskButton {
   border: none;
   color: #fff;
@@ -69,12 +69,12 @@ body {
   cursor: pointer;
 }
 
-/* Button hover effect */
+/* Add Button Hover Effect */
 #addTaskButton:hover {
   background-color: #218838;
 }
 
-/* Task heading */
+/* Task Heading Styles */
 #taskHeading {
   display: none;
   color: #343a40;
@@ -85,17 +85,16 @@ body {
   text-align: center;
 }
 
-/* Active task heading */
 #taskHeading.active {
   display: block;
 }
 
-/* Task list styles */
+/* Task List Styles */
 #taskList {
   list-style: none;
 }
 
-/* Individual task item */
+/* Task Item Styles */
 .task-item {
   padding: 0.5rem;
   display: flex;
@@ -107,17 +106,17 @@ body {
   background-color: #d9d9d9;
 }
 
-/* Completed task styling */
+.task-name {
+  font-size: 1.15rem;
+}
+
+/* Completed Task Styling */
 .task-item.done {
   text-decoration: line-through;
   color: #333;
 }
 
-.task-name{
-  font-size: 1.15rem;
-}
-
-/* Remove button styles */
+/* Remove Button Styles */
 .remove-btn {
   color: #fff;
   background-color: #dc3545;
@@ -128,10 +127,8 @@ body {
   transition: background-color 0.3s, transform 0.3s;
 }
 
-/* Remove button hover effect */
-
+/* Remove Button Hover Effect */
 .remove-btn:hover {
   background-color: #c82333;
   transform: scale(1.05);
 }
-
