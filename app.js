@@ -21,10 +21,10 @@ document.addEventListener("DOMContentLoaded", () => {
     li.classList.add("task-item");
     li.innerHTML = `
             <span class="task-name">${taskText}</span>
-            <div>
+            <span>
               <button class="btn edit-btn">Edit</button>
               <button class="btn remove-btn">Remove</button>
-            </div>
+            </span>
         `;
 
     // Toggling the 'done' class when the task is clicked
