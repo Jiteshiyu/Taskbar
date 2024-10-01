@@ -20,7 +20,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const li = document.createElement("li");
     li.classList.add("task-item");
     li.innerHTML = `
-            <span>${taskText}</span>
+            <span class="task-name">${taskText}</span>
+            <button class="edit-btn">Edit</button>
             <button class="remove-btn">Remove</button>
         `;
 
@@ -32,6 +33,15 @@ document.addEventListener("DOMContentLoaded", () => {
     // Remove the task when the 'Remove' button is clicked
     li.querySelector(".remove-btn").addEventListener("click", () => {
       taskList.removeChild(li);
+    });
+
+    // Edit the task when the 'Edit' button is clicked
+    li.querySelector(".edit-btn").addEventListener("click", () => {
+      const taskName = li.querySelector(".task-name");
+      const newTaskText = prompt("Edit task:", taskName.textContent);
+      if (newTaskText !== null && newTaskText.trim() !== "") {
+        taskName.textContent = newTaskText.trim();
+      }
     });
 
     taskList.appendChild(li);
