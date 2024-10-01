@@ -8,7 +8,7 @@
 /* Body styles */
 body {
   min-height: 100vh;
-  background-color: #333;
+  background: linear-gradient(#c6e1f9, #c9e0f4);
   font-family: Arial, sans-serif;
   display: flex;
   justify-content: center;
@@ -20,7 +20,7 @@ body {
   background: #f4f4f4;
   padding: 2rem;
   border-radius: 0.75rem;
-  box-shadow: 4px 4px 6px rgba(0, 255, 255, 1);
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 1);
   transition: transform 0.3s ease;
 }
 
