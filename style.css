@@ -65,7 +65,7 @@ body {
   color: #fff;
   font-size: 1rem;
   background-color: #28a745;
-  padding: 0.3rem 1.2rem;
+  padding: 0.25rem 1.2rem;
   border-radius: 0.25rem;
   cursor: pointer;
 }
@@ -119,8 +119,9 @@ body {
 }
 
 /* Remove button styles */
-.btn {
+.remove-btn {
   color: #fff;
+  background-color: #dc3545;
   border: none;
   padding: 0.4rem;
   border-radius: 0.25rem;
@@ -128,19 +129,7 @@ body {
   transition: background-color 0.3s, transform 0.3s;
 }
 
-.remove-btn {
-    background-color: #dc3545;
-}
-
-.edit-btn {
-    background-color: #007bf4;
-}
-
 /* Remove button hover effect */
-.edit-btn:hover {
-  background-color: ##0056b3;
-  transform: scale(1.05);
-}
 
 .remove-btn:hover {
   background-color: #c82333;
