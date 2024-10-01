@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const li = document.createElement("li");
     li.classList.add("task-item");
     li.innerHTML = `
-            <span class="task-name">${taskText}</span>
+            <span class="task-name">${taskText.toUpperCase()}</span>
             <button class="remove-btn">Remove</button>
         `;
 
