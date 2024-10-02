@@ -8,7 +8,7 @@ A simple and interactive To-Do List Application.
 
 ## Demo
 
-You can view a live demo of the project [here](https://taskscroll.netlify.app/).
+You can view a live demo of the project [Taskscroll](https://taskscroll.netlify.app/).
 
 ## Features
 
