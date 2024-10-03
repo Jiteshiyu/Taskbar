@@ -18,7 +18,7 @@ body {
 /* Todo App Styles */
 .todo-app {
   background: #f4f4f4;
-  padding: 0.75rem;
+  padding: 0.7rem;
   border-radius: 1.5rem;
   box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.7);
   transition: transform 0.3s ease;
@@ -47,10 +47,9 @@ body {
 /* Task Input Styles */
 #taskInput {
   padding: 0.5rem;
-  margin-right: 1rem;
-  border: 2px solid #333;
-  border-radius: 0.25rem;
   font-size: 1rem;
+  margin-right: 1rem;
+  border-radius: 0.25rem;
   transition: border-color 0.3s;
 }
 
@@ -107,7 +106,7 @@ body {
 }
 
 .task-name {
-  font-size: 1.15rem;
+  font-size: 1rem;
 }
 
 /* Completed Task Styling */
