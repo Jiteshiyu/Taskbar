@@ -18,7 +18,7 @@ body {
 /* Todo App Styles */
 .todo-app {
   background: #f4f4f4;
-  padding: 1.2rem;
+  padding: 0.75rem;
   border-radius: 1.5rem;
   box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.7);
   transition: transform 0.3s ease;
