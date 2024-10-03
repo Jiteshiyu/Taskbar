@@ -18,9 +18,9 @@ body {
 /* Todo App Styles */
 .todo-app {
   background: #f4f4f4;
-  padding: 0.7rem;
+  padding: 0.75rem;
   border-radius: 1.5rem;
-  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.7);
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
   transition: transform 0.3s ease;
 }
 
@@ -49,6 +49,7 @@ body {
   padding: 0.5rem;
   font-size: 1rem;
   margin-right: 0.8rem;
+  border: none;
   border-radius: 0.25rem;
 }
 
@@ -98,10 +99,10 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #f4f4f4;
   border-radius: 0.25rem;
   margin-bottom: 0.5rem;
   background-color: #d9d9d9;
+  word-wrap: break-word;
 }
 
 .task-name {
