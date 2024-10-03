@@ -48,9 +48,8 @@ body {
 #taskInput {
   padding: 0.5rem;
   font-size: 1rem;
-  margin-right: 1rem;
+  margin-right: 0.8rem;
   border-radius: 0.25rem;
-  transition: border-color 0.3s;
 }
 
 #taskInput:focus {
@@ -131,3 +130,4 @@ body {
   background-color: #c82333;
   transform: scale(1.05);
 }
+
